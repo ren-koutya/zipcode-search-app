@@ -1,0 +1,18 @@
+.search-results {
+  text-align: left;
+  
+  .result-item {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    
+    p {
+      margin-bottom: 5px;
+      
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
