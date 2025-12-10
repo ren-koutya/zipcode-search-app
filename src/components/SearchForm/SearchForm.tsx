@@ -52,7 +52,7 @@ function SearchForm({ onSearch, error }: SearchFormProps) {
           type="text"
           value={zipcode}
           onChange={handleChange}
-          placeholder="例: 100-0001"
+          placeholder="郵便番号を入力してください。"
           className="zipcode-input"
         />
         <button type="submit" disabled={zipcode === ''} className="search-button">
